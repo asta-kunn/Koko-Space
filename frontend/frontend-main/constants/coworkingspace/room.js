@@ -1,0 +1,61 @@
+// dummy
+// id,
+// name,
+// priceHour,
+// images,
+// city,
+// country,
+export const COWORKING_ROOM = [
+  {
+    id: 1,
+    name: "Mawar room",
+    priceHour: 2000,
+    priceDay: 20000,
+    images: [
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102646/cld-sample-4.jpg",
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102645/cld-sample-2.jpg",
+    ],
+    facilities: ["wifi", "netflix", "kamar mandi dalam"],
+    type: "Coworking",
+    availability: true,
+  },
+  {
+    id: 2,
+    name: "Melati Room",
+    priceHour: 1000,
+    priceDay: 10000,
+    images: [
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102647/cld-sample-5.jpg",
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102646/cld-sample-3.jpg",
+    ],
+    facilities: ["wifi", "netflix", "kamar mandi dalam"],
+    type: "Coworking",
+    availability: true,
+  },
+  {
+    id: 3,
+    name: "Tulip Room",
+    priceHour: 5000,
+    priceDay: 50000,
+    images: [
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102644/cld-sample.jpg",
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102618/sample.jpg",
+    ],
+    facilities: ["wifi", "netflix", "kamar mandi dalam"],
+    type: "Coworking",
+    availability: true,
+  },
+  {
+    id: 4,
+    name: "Honu Room",
+    priceHour: 5800,
+    priceDay: 58000,
+    images: [
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102618/sample.jpg",
+      "https://res.cloudinary.com/dkg0oswii/image/upload/v1669102644/cld-sample.jpg",
+    ],
+    facilities: ["wifi", "netflix", "kamar mandi dalam"],
+    type: "Coworking",
+    availability: true,
+  },
+];

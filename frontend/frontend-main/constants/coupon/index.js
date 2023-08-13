@@ -1,0 +1,32 @@
+export const COUPON_DATA = [
+  {
+    id: 1,
+    code: "kode1",
+    discount: 10000,
+    startDate: "02-05-2023",
+    endDate: "02-07-2025",
+    minPrice: 100000,
+    maxUsage: 10,
+    status: "Available",
+  },
+  {
+    id: 2,
+    code: "kode2",
+    discount: 100000,
+    startDate: "02-05-2023",
+    endDate: "02-07-2025",
+    minPrice: 1000000,
+    maxUsage: 10,
+    status: "MaxUsed",
+  },
+  {
+    id: 3,
+    code: "kode3",
+    discount: 15000,
+    startDate: "02-05-2023",
+    endDate: "02-07-2025",
+    minPrice: 150000,
+    maxUsage: 10,
+    status: "Expired",
+  },
+];

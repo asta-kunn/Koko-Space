@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["components"],
+      "@elements": ["elements"],
+      "@models": ["models"],
+      "@pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"],
+      "@constants": ["constants"],
+      "@images/*": ["public/assets/images/*"],
+      "@icons/*": ["public/assets/icons/*"]
+    }
+  }
+}
